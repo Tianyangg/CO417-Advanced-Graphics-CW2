@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd379f45-014b-4ab5-bba0-8cc8fb6fa028" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/libPNM/PNM.c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libPNM/PNM.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libPNM/PNM.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libPNM/PNM.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libPNM/PNM.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libPNM/README" />
+      <change beforePath="$PROJECT_DIR$/MCw_.ppm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MCw_1.ppm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MCw_1024.ppm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fresnel.py" afterPath="$PROJECT_DIR$/fresnel.py" />
+      <change beforePath="$PROJECT_DIR$/libPNM/monte_carlo_samping.py" afterPath="$PROJECT_DIR$/libPNM/monte_carlo_samping.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,15 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="monte_carlo_samping.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="monte_carlo_samping.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libPNM/monte_carlo_samping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="148" column="39" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+            <state relative-caret-position="343">
+              <caret line="54" column="125" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="125" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#1962#2123#0" expanded="false" />
-                <element signature="e#2176#3456#0" expanded="false" />
+                <element signature="e#2999#4279#0" expanded="false" />
+                <element signature="e#4312#5054#0" expanded="false" />
+                <element signature="e#5097#6190#0" expanded="false" />
+                <element signature="e#6222#6612#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fresnel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fresnel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,13 +55,14 @@
       <list>
         <option value="$PROJECT_DIR$/monte_carlo_samping.py" />
         <option value="$PROJECT_DIR$/libPNM/monte_carlo_samping.py" />
+        <option value="$PROJECT_DIR$/fresnel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
+    <option name="x" value="49" />
     <option name="y" value="23" />
-    <option name="width" value="1612" />
+    <option name="width" value="1632" />
     <option name="height" value="1005" />
   </component>
   <component name="ProjectView">
@@ -116,6 +130,31 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="fresnel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CO417-cw2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fresnel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.fresnel" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -133,18 +172,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1612" height="1005" extended-state="0" />
+    <frame x="49" y="23" width="1632" height="1005" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09490446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04528302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36153847" sideWeight="0.12420382" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.50251573" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49748427" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36153847" sideWeight="0.8757962" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36153847" sideWeight="0.87169814" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -160,7 +199,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -170,8 +211,24 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#1962#2123#0" expanded="false" />
-            <element signature="e#2176#3456#0" expanded="false" />
+            <element signature="e#2999#4279#0" expanded="false" />
+            <element signature="e#4312#5054#0" expanded="false" />
+            <element signature="e#5097#6190#0" expanded="false" />
+            <element signature="e#6222#6612#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libPNM/monte_carlo_samping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#2999#4279#0" expanded="false" />
+            <element signature="e#4312#5054#0" expanded="false" />
+            <element signature="e#5097#6190#0" expanded="false" />
+            <element signature="e#6222#6612#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -182,8 +239,10 @@
           <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#1962#2123#0" expanded="false" />
-            <element signature="e#2176#3456#0" expanded="false" />
+            <element signature="e#2999#4279#0" expanded="false" />
+            <element signature="e#4312#5054#0" expanded="false" />
+            <element signature="e#5097#6190#0" expanded="false" />
+            <element signature="e#6222#6612#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -195,12 +254,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libPNM/monte_carlo_samping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="148" column="39" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+        <state relative-caret-position="343">
+          <caret line="54" column="125" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="125" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#1962#2123#0" expanded="false" />
-            <element signature="e#2176#3456#0" expanded="false" />
+            <element signature="e#2999#4279#0" expanded="false" />
+            <element signature="e#4312#5054#0" expanded="false" />
+            <element signature="e#5097#6190#0" expanded="false" />
+            <element signature="e#6222#6612#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fresnel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
